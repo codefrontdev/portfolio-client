@@ -1,0 +1,21 @@
+
+.contact-from-display.active {
+    justify-content: center;
+}
+    
+/* @media (max-width: 980px) {
+
+    .contact-form {
+        min-width: 80%;
+    }
+}
+
+
+    
+@media (max-width: 480px) {
+
+    .contact-form {
+        width: 0;
+        margin: 0px 40px;
+    }
+} */

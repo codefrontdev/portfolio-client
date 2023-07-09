@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+  --main-color: #cbac40;
+  --primary-color: #4ec661;
+  --secondary-color: #479eef;
+  --light-red-color: #d01919;
+  --strong-color: #6947ef;
+  --black-bg-color: #0f0f0f;
+  --white-color: #fff;
+}
+
+*{
+  font-family: 'Abril Fatface', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black-bg-color);
+  text-transform: capitalize;
+
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  text-decoration: none;
+}

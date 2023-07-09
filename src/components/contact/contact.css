@@ -1,0 +1,52 @@
+.contact {
+    height: 100vh;
+    margin: 100px 0;
+}
+
+.contact .title-text .process-text p {
+    /* font-size: 2.5rem; */
+    justify-content: space-evenly;
+}
+
+.contact .content-contact {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .content-contact .dashed-btn {
+    border-radius: 50%;
+    border: 2px dashed #fff;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.contact .content-contact .contact-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    border: 2px dashed #6c49f5;
+    border-width: 5px;
+    margin: 10px;
+    padding: 55px;
+    text-transform: uppercase;
+}
+
+
+.contact .content-contact .contact-btn p {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+
+.contact .content-contact .contact-btn i {
+    background-color: transparent;
+    color: #fff;
+}
