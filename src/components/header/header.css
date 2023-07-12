@@ -295,6 +295,7 @@
     .header-item-text h1,
     .header-item-text h2 {
         font-size: 4rem;
+        margin-top: -14px;
     }
 
     .header-item-left, 
