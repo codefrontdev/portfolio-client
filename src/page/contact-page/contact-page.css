@@ -269,10 +269,10 @@ input:focus + .lable {
     .contact-page .title-text {
         margin: 0;
         padding-left: 10px;
-        /* padding-left: 30px; */
     }
     .contact-text {
         min-width: 90%;
+        margin-left: 0;
     }
     .contact-text.active h1,
     .contact-text.active p {
