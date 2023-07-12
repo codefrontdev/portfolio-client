@@ -240,6 +240,11 @@ form {
     .dashboard-main {
         flex: 7;
     }
+    
+    .dashboard-wrapper-item .dashboard-sidebar {
+        flex: 4;
+    }
+    
     .dashboard-main,
     .dashboard-sidebar {
         padding: 0 10px 10px;
@@ -256,6 +261,7 @@ form {
 }
 
 @media (max-width: 720px) {
+    .dashboard-wrapper-item,
     .dashboard-container {
         flex-direction: column;
     }
